@@ -1,7 +1,7 @@
 {
     "commands": {
         "web": "Microsoft.AspNet.Hosting server=Microsoft.AspNet.Server.WebListener server.urls=http://localhost:5001",
-        "install-sessionDb": "Microsoft.Framework.Caching.SqlServer"
+        "install-sqlservercache": "Microsoft.Framework.Caching.SqlServer"
     },
     "dependencies": {
         "Microsoft.AspNet.Server.IIS": "1.0.0-*",
